@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_section_price_boxes",
+  "info": {
+    "name": "sectionPriceBox",
+    "icon": "dollar-sign",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "totalPrice": {
+      "required": true,
+      "type": "integer"
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext",
+      "required": true
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    }
+  }
+}
