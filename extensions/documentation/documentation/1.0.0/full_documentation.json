@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/07/2021 5:44:08 PM"
+    "x-generation-date": "04/08/2021 8:45:49 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3103,7 +3103,7 @@
           "photo",
           "name",
           "role",
-          "socialLinks"
+          "description"
         ],
         "properties": {
           "id": {
@@ -3218,6 +3218,9 @@
               }
             }
           },
+          "description": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3228,7 +3231,7 @@
         "required": [
           "name",
           "role",
-          "socialLinks"
+          "description"
         ],
         "properties": {
           "name": {
@@ -3269,6 +3272,9 @@
                 }
               }
             }
+          },
+          "description": {
+            "type": "string"
           },
           "published_at": {
             "type": "string",
@@ -3823,7 +3829,7 @@
                     "photo",
                     "name",
                     "role",
-                    "socialLinks"
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -3843,6 +3849,9 @@
                     },
                     "socialLinks": {
                       "type": "component"
+                    },
+                    "description": {
+                      "type": "string"
                     },
                     "published_at": {
                       "type": "string"
@@ -4478,7 +4487,7 @@
                     "photo",
                     "name",
                     "role",
-                    "socialLinks"
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -4498,6 +4507,9 @@
                     },
                     "socialLinks": {
                       "type": "component"
+                    },
+                    "description": {
+                      "type": "string"
                     },
                     "published_at": {
                       "type": "string"

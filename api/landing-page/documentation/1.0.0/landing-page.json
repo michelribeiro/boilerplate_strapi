@@ -856,7 +856,7 @@
                     "photo",
                     "name",
                     "role",
-                    "socialLinks"
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -876,6 +876,9 @@
                     },
                     "socialLinks": {
                       "type": "component"
+                    },
+                    "description": {
+                      "type": "string"
                     },
                     "published_at": {
                       "type": "string"
@@ -1511,7 +1514,7 @@
                     "photo",
                     "name",
                     "role",
-                    "socialLinks"
+                    "description"
                   ],
                   "properties": {
                     "id": {
@@ -1531,6 +1534,9 @@
                     },
                     "socialLinks": {
                       "type": "component"
+                    },
+                    "description": {
+                      "type": "string"
                     },
                     "published_at": {
                       "type": "string"
